@@ -5,14 +5,30 @@
     <title>dom.js</title> 
     <meta name="viewport" content="width=device-width,initial-scale=1" /> 
     <meta name="description" content="" />
+    <style>
+      * {
+        color-scheme: dark;
+        font-family: monospace;
+      }
+    </style>
   </head>
   <body> 
     <h1>Hello World!</h1>
+    <ul>
+      <li>list</li>
+      <li>list</li>
+    </ul>
     <script src="dom.js"></script>
     
     <script>
       const $ = domjs.init(document);
-      $.el('h1').innerText = 'dom.js';
+
+      $.el('h1').innerText = 'select one';
+      $.els('li').forEach(el => el.innerHTML = 'or multiple');
+
+      let el = $.create('li');
+      el.innerText = 'or make one';
+      $.el('ul').appendChild(el);
     </script>
   </body>
 </html>

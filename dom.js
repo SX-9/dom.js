@@ -16,11 +16,7 @@ var domjs = {
       create: element => {
         if (!element) return console.error("domjs: Please Specify A Valid Tag Name.");
         return doc.createElement(element);
-      },
-      event: event => {
-        if (!event || !action) return console.error("domjs: Please Specify A Valid Event.");
-        return doc.addEventListener(event, action);
-      },
+      }
     }
   },
 }
