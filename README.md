@@ -1,6 +1,7 @@
 # dom.js 
 ### DOM Manipulation Simplified
-[See It In Action](test.html)
+[See It In Action](test.html) • [Made By SX-9](https://new.sx9.is-a.dev)
+
 Tired Of Typing Document Query Selectors? Use This Instead!
 
 ## Install Me!
