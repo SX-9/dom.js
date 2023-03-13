@@ -4,7 +4,7 @@ Tired Of Typing Document Query Selectors? Use This Instead!
 
 ## Install
 ```html
-<script src="https://dom.js.org/dom.js"></script>
+<script src="https://domjs.1bt.uk/dom.js"></script>
 ```
 
 ## Usage
